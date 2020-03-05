@@ -1,0 +1,164 @@
+﻿bpl_no,origin_original,origin
+1,Alabama,Alabama
+2,Alaska,Alaska
+4,Arizona,Arizona
+5,Arkansas,Arkansas
+6,California,California
+8,Colorado,Colorado
+9,Connecticut,Connecticut
+10,Delaware,Delaware
+11,District of Columbia,District of Columbia
+12,Florida,Florida
+13,Georgia,Georgia
+15,Hawaii,Hawaii
+16,Idaho,Idaho
+17,Illinois,Illinois
+18,Indiana,Indiana
+19,Iowa,Iowa
+20,Kansas,Kansas
+21,Kentucky,Kentucky
+22,Louisiana,Louisiana
+23,Maine,Maine
+24,Maryland,Maryland
+25,Massachusetts,Massachusetts
+26,Michigan,Michigan
+27,Minnesota,Minnesota
+28,Mississippi,Mississippi
+29,Missouri,Missouri
+30,Montana,Montana
+31,Nebraska,Nebraska
+32,Nevada,Nevada
+33,New Hampshire,New Hampshire
+34,New Jersey,New Jersey
+35,New Mexico,New Mexico
+36,New York,New York
+37,North Carolina,North Carolina
+38,North Dakota,North Dakota
+39,Ohio,Ohio
+40,Oklahoma,Oklahoma
+41,Oregon,Oregon
+42,Pennsylvania,Pennsylvania
+44,Rhode Island,Rhode Island
+45,South Carolina,South Carolina
+46,South Dakota,South Dakota
+47,Tennessee,Tennessee
+48,Texas,Texas
+49,Utah,Utah
+50,Vermont,Vermont
+51,Virginia,Virginia
+53,Washington,Washington
+54,West Virginia,West Virginia
+55,Wisconsin,Wisconsin
+56,Wyoming,Wyoming
+90,Native American,Native American
+99,"United States, ns","United States, ns"
+100,American Samoa,American Samoa
+105,Guam,Guam
+110,Puerto Rico,Puerto Rico
+115,U.S. Virgin Islands,U.S. Virgin Islands
+120,Other US Possessions,Other US Possessions
+150,Canada,Canada
+155,St. Pierre and Miquelon,St. Pierre and Miquelon
+160,Atlantic Islands,Atlantic Islands
+199,"North America, ns","North America, ns"
+200,Mexico,Mexico
+210,Central America,Central America
+250,Cuba,Cuba
+260,West Indies,West Indies
+299,"Americas, n.s.","Americas, n.s."
+300,SOUTH AMERICA,SOUTH AMERICA
+400,Denmark,Denmark
+401,Finland,Finland
+402,Iceland,Iceland
+403,"Lapland, n.s.","Lapland, n.s."
+404,Norway,Norway
+405,Sweden,Sweden
+410,England,England
+411,Scotland,Scotland
+412,Wales,Wales
+413,"United Kingdom, ns",UK
+414,Ireland,Ireland
+419,"Northern Europe, ns","Northern Europe, ns"
+420,Belgium,Belgium
+421,France,France
+422,Liechtenstein,Liechtenstein
+423,Luxembourg,Luxembourg
+424,Monaco,Monaco
+425,Netherlands,Netherlands
+426,Switzerland,Switzerland
+429,"Western Europe, ns","Western Europe, ns"
+430,Albania,Albania
+431,Andorra,Andorra
+432,Gibraltar,Gibraltar
+433,Greece,Greece
+434,Italy,Italy
+435,Malta,Malta
+436,Portugal,Portugal
+437,San Marino,San Marino
+438,Spain,Spain
+439,Vatican City,Vatican City
+440,"Southern Europe, ns","Southern Europe, ns"
+450,Austria,Austria
+451,Bulgaria,Bulgaria
+452,Czechoslovakia,Czechoslovakia
+453,Germany,Germany
+454,Hungary,Hungary
+455,Poland,Poland
+456,Romania,Romania
+457,Yugoslavia,Yugoslavia
+458,"Central Europe, ns","Central Europe, ns"
+459,"Eastern Europe, ns","Eastern Europe, ns"
+460,Estonia,Estonia
+461,Latvia,Latvia
+462,Lithuania,Lithuania
+463,"Baltic States, ns","Baltic States, ns"
+465,Other USSR/Russia,Russia
+499,"Europe, ns","Europe, ns"
+500,China,China
+501,Japan,Japan
+502,Korea,South Korea
+509,"East Asia, ns","East Asia, ns"
+510,Brunei,Brunei
+511,Cambodia (Kampuchea),Cambodia (Kampuchea)
+512,Indonesia,Indonesia
+513,Laos,Laos
+514,Malaysia,Malaysia
+515,Philippines,Philippines
+516,Singapore,Singapore
+517,Thailand,Thailand
+518,Vietnam,Vietnam
+519,"Southeast Asia, ns","Southeast Asia, ns"
+520,Afghanistan,Afghanistan
+521,India,India
+522,Iran,Iran
+523,Maldives,Maldives
+524,Nepal,Nepal
+530,Bahrain,Bahrain
+531,Cyprus,Cyprus
+532,Iraq,Iraq
+533,Iraq/Saudi Arabia,Iraq/Saudi Arabia
+534,Israel/Palestine,Israel
+535,Jordan,Jordan
+536,Kuwait,Kuwait
+537,Lebanon,Lebanon
+538,Oman,Oman
+539,Qatar,Qatar
+540,Saudi Arabia,Saudi Arabia
+541,Syria,Syria
+542,Turkey,Turkey
+543,United Arab Emirates,UAE
+544,Yemen Arab Republic (North),Yemen Arab Republic (North)
+545,"Yemen, PDR (South)","Yemen, PDR (South)"
+546,"Persian Gulf States, n.s.","Persian Gulf States, n.s."
+547,"Middle East, ns","Middle East, ns"
+548,"Southwest Asia, nec/ns","Southwest Asia, nec/ns"
+549,"Asia Minor, ns","Asia Minor, ns"
+550,"South Asia, nec","South Asia, nec"
+599,"Asia, nec/ns","Asia, nec/ns"
+600,AFRICA,AFRICA
+700,Australia and New Zealand,Australia
+710,Pacific Islands,Pacific Islands
+800,"Antarctica, ns/nec","Antarctica, ns/nec"
+900,Abroad (unknown) or at sea,Abroad (unknown) or at sea
+950,Other n.e.c.,Other n.e.c.
+999,Missing/blank,Missing/blank

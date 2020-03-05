@@ -1,0 +1,16 @@
+model {
+  # bias model
+  for(i in 1:n){
+    log_acs_prop[i] ~ dnorm(mu[i], tau.y[i])
+    mu[i] <- b0 + b_fb*log_fb_prop.i[i]+ inprod(b[], x.i[i,])
+    tau.y[i] <- pow(1/tau + pow(se[i], 2), -1)
+  }
+  # priors on bias model
+  tau ~ dgamma(.01,.01)
+  b0 ~ dnorm(0,1.0E-12)
+  b_fb ~ dnorm(0,1.0E-12)
+  for (k in 1:K) {
+    b[k] ~ dnorm(0,1.0E-12)
+  }
+
+}

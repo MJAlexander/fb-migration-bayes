@@ -1,0 +1,59 @@
+model{
+
+  ############## LC model ##############
+  for (x in 1:X){ #age
+    for(s in 1:S){ # state
+      for (t in 1:(T)){ #time
+        log_mu.xts[x,t,s]  <- beta.ts[t,s,1]*Y.x[x, 1] + beta.ts[t,s,2]*Y.x[x, 2] +  eps.xts[x,t,s] # LC model
+      }
+    }
+  }
+  for(i in 1:N){
+    log_p.i[i] ~ dnorm(log_mu.xts[get_age.i[i],get_year.i[i],get_state.i[i]], tau.p[i]) 
+    tau.p[i] <- pow(pow(se.i[i], 2), -1) # observed error
+  }
+  
+  
+   
+  for(s in 1:S){
+    # mean age schedule coefficient
+    beta.ts[1, s, 1] ~ dnorm(0,1)
+    for(t in 2:(T)){
+      beta.ts[t, s, 1] ~ dnorm(beta.ts[t-1,s, 1], tau.beta[1])
+    }
+    
+    # change over time coefficient
+    beta.ts[1, s, 2] <- mu.beta[1,2] + delta[s,2]
+    for(t in 2:(T)){
+      beta.ts[t, s, 2] <- mu.beta[t,2] + delta[s,2]
+    }
+    delta[s,2] ~ dnorm(0, tau.beta[2])
+    
+    for (x in 1:X){
+    eps.xts[x,1,s] ~ dnorm(0, tau.ar[s])
+    for(t in 2:(T)){
+      #AR1 term
+      eps.xts[x,t,s]  ~ dnorm(rho[x,s]*eps.xts[x,t-1,s], tau.ar[s])
+    }
+  
+    
+    rho[x,s] ~ dunif(0, 1)
+  }
+    tau.ar[s] <- pow(sigma.ar[s],-2)
+    sigma.ar[s] ~ dnorm(0,1)I(0,)
+  }
+  
+  mu.beta[1,2] ~ dnorm(0, 1)
+    for(t in 2:T){
+      mu.beta[t,2] ~ dnorm(mu.beta[t-1,2], tau.mu[2])
+    }
+  for(d in 1:2){
+  tau.beta[d] <- pow(sigma.beta[d], -2)
+  sigma.beta[d] ~ dnorm(0,1)I(0,)
+  tau.mu[d] <- pow(sigma.mu[d], -2)
+  sigma.mu[d] ~ dnorm(0,1)I(0,)
+  }
+  
+  sigma.ns ~ dnorm(0,1)I(0,)
+
+}

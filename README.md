@@ -13,5 +13,10 @@ Notes about data:
 - ACS data were downloaded from IPUMS USA. We extracted ACS 1 year with the following variables: YEAR; STATEFIP; PERWT; SEX; AGE; BPL for all years 2001-2016
 
 
+Authors
+=======
 
+-   [Monica Alexander](http://monicaalexander.com) (![Github](http://i.imgur.com/9I6NRUm.png): [MJAlexander](https://github.com/MJAlexander) | ![Twitter](http://i.imgur.com/wWzX9uB.png): [@monjalexander](https://twitter.com/monjalexander))
+-   [Kivan Polimis](http://kivanpolimis.com/) (![Github](http://i.imgur.com/9I6NRUm.png): [kpolimis](https://github.com/MJAlexander) | ![Twitter](http://i.imgur.com/wWzX9uB.png): [@kpolimis](https://twitter.com/kpolimis))
+-   [Emilio Zagheni](https://www.demogr.mpg.de/en/about_us_6113/staff_directory_1899/emilio_zagheni_2243) (![Github](http://i.imgur.com/9I6NRUm.png): [ezagheni](https://github.com/MJAlexander) | ![Twitter](http://i.imgur.com/wWzX9uB.png): [@monjalexander](https://twitter.com/ezagheni))
 

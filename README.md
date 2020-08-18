@@ -1,6 +1,9 @@
 # A Bayesian model to produce nowcasts of migrant stocks using Facebook and ACS data
 
-Code and materials for 'Combining social media and survey data to nowcast migrant stocks in the United States'. Preprint is here: https://arxiv.org/abs/2003.02895
+Code and materials for 'Combining social media and survey data to nowcast migrant stocks in the United States'. Open access paper is here: https://link.springer.com/article/10.1007%2Fs11113-020-09599-3
+
+Citation:
+> Alexander, M., Polimis, K. & Zagheni, E. Combining Social Media and Survey Data to Nowcast Migrant Stocks in the United States. Popul Res Policy Rev (2020). https://doi.org/10.1007/s11113-020-09599-3
 
 Overview
 =======

@@ -22,7 +22,7 @@ model{
    
   for(s in 1:S){
     # mean age schedule coefficient
-    beta.ts[1, s, 1] ~ dnorm(0,1)
+    beta.ts[1, s, 1] ~ dnorm(0,tau.beta[1])
     for(t in 2:(T)){
       beta.ts[t, s, 1] ~ dnorm(beta.ts[t-1,s, 1], tau.beta[1])
     }
@@ -45,7 +45,7 @@ model{
     rho[x,s] ~ dunif(0, 1)
   }
     tau.ar[s] <- pow(sigma.ar[s],-2)
-    sigma.ar[s] ~ dnorm(0,1)I(0,)
+    sigma.ar[s] ~ dnorm(0,1)I(0.05,)
   }
   
   mu.beta[1,2] ~ dnorm(0, 1)
